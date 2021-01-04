@@ -1,0 +1,123 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(fonts/OPTIFob-DemiBold.otf);
+ }
+
+body{
+    font-family: myFirstFont ;
+}
+
+.container {
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.titles {
+    max-width: 60%;
+    padding-left: 120px;
+    align-self: auto;
+}
+
+.tag_title{
+    /* border: 1px dotted blue; */
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.left_container {
+    max-width: 60%;
+    margin-right: 10px;
+
+}
+
+.page_title {
+    margin-bottom: 30px;
+}
+
+.main_img {
+    max-width: 640px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.small_txt_container {
+    max-width: 640px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    margin-bottom: 20px; 
+}
+
+.text-box {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.small_title {
+    font-size: medium;
+}
+
+.btn {
+    font-size: 18px;
+    font-weight: 500;
+    width: 148px;
+    height: 49px;
+    border-radius: 10px;
+    border: 1px solid #23004d ;
+    background-color: #fff;
+    color: #23004d;
+}
+
+.right_container {
+    max-width: 250px;
+    height: auto;
+    padding: 52px;
+    margin-left: 20px;
+    box-shadow: 1px 13px 10px -8px rgba(35, 0, 77, 0.5);
+    border-radius: 10px;
+    background-color:#23004d ;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+
+.title_right {
+    margin-top:20px ;
+    margin-bottom: 20px;
+}
+
+.btn_white {
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+
+/********************************************/
+/*Testing area*/
+/********************************************/
+
+
+
+footer {
+    margin: 0;
+    margin-top: 200px;
+    padding: 30px;
+    padding-bottom: 40px;
+    background-color: lightgrey;
+    font-weight: 1000;
+    text-align: center;
+    margin-bottom: 0;
+}
